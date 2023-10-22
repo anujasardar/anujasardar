@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google meet</title>
+    <style>
+     .main-container{
+      margin: 10px;
+      background-color: #151618;     
+       display: flex;flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+     
+     }
+     .container{position: relative;
+      display: flex;flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-top: 70px;
+     }            .user-card{height:200Px ;
+             width:250px;
+          margin-bottom: 10px;
+             background-color:#4b5572;
+             border-radius:10px ; 
+            display: flex;flex-direction: row;flex-wrap: wrap;
+          position: relative;}
+
+     .profile-picture{
+      display: block;
+      margin-top:20px;
+      margin-left:20px ;
+      height: 100px;
+      width: 1OOpx;
+      padding-left: 15px;display: flex;
+      text-align: center; position: absolute;
+      top: 30PX;left: 10PX;
+     }
+     .mic{
+      height: 25px;
+      position: absolute;
+      right: 15px;top: 10PX;
+      background-color: #161c2e;
+      border-radius:5px;
+     }
+     .user-name{
+      color: white;
+      position: absolute;
+      bottom:15px ;left:20px ;
+     }
+     .footer{background-color: #4b5572;height:40px;width:100% ;   display: flex;justify-content: space-around;margin-top: 20px;}
+    .foot{width: 70px;height:30px ;margin-left: 40px;margin-right:40px;margin-top:5px ;border-radius: 20px;}
+@media only screen and (max-width: 600px)
+{
+.profile-picture{width: 40px}.user-card{width: 100px;}
+.foot{margin-left:20px ;margin-right: 20px;}
+}
+@media only screen and(min-width:601px) and (max-width:800px){
+
+.profile-picture{width:30px ;height: 30px;
+text-align: center;}.user-card{width: 100px;
+padding:5px ;margin: 0%;border-radius:30px ;}
+
+}
+
+    </style> 
+</head>
+<body class="main-container">
+  <div class="container">
+    <div class="user-card" card><img src="unmute.jpg" class="mic"/>
+       <img src="one.jpg" class="profile-picture"/>
+        <p class="user-name">Anuja</p></div>
+     <div class="user-card" card><img src="unmute.jpg" class="mic"/> 
+      <img src="two.jpg" class="profile-picture"/>
+      <p class="user-name">Ankit</p></div>
+          <div class="user-card" card><img src="unmute.jpg" class="mic"/>
+            <img src="four.jpg" class="profile-picture"/>
+            <p class="user-name">saurabh</p></div>
+             <div class="user-card" card><img src="unmute.jpg" class="mic"/>
+              <img src="three.jpg" class="profile-picture"/>
+              <p class="user-name">pratik</p></div>
+              <div class="user-card" card><img src="unmute.jpg" class="mic"/>
+                <img src="five.jpg" class="profile-picture"/>
+                <p class="user-name">ankit</p></div> 
+                <div class="user-card" card><img src="unmute.jpg" class="mic"/>
+                  <img src= "six.jpg"class="profile-picture"/>
+                  <p class="user-name">payal</p></div>
+                   <div class="user-card" card><img src="unmute.jpg" class="mic"/>
+                    <img src="seven.jpg"class="profile-picture"/>
+                    <p class="user-name">Amit</p></div>                 
+                      <div class="user-card" card><img src="unmute.jpg" class="mic"/>
+                      <img src="eight.jpg"class="profile-picture"/>
+                      <p class="user-name">Sanjana</p></div>               
+                          <div class="user-card" card><img src="unmute.jpg" class="mic"/>
+                        <img src="nine.jpg"class="profile-picture"/>
+                        <p class="user-name">akshay</p></div>                
+                           <div class="user-card" card><img src="unmute.jpg" class="mic"/>
+                          <img src="ten.jpg" class="profile-picture"/>
+                          <p class="user-name">Aachal</p></div>     
+</div>
+<div class="footer">
+  <img src="micetwo.jpg"class="foot"/>
+  <img src="camera.jpg" class="foot"/>
+  <img src="hand.jpg" class="foot"/>
+  <img src="dot.jpg" class="foot"/>
+  <img src="call.png" class="foot"/>
+</div>
+</body>
+</html>
